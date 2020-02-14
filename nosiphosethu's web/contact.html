@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>CONTACT</title>
+<link rel="stylesheet" href="contact_style.css">
+<script src="https://www.google.com/recaptchan/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body style=" background-image: url('situngu.jpeg'); background-size: cover;">
+    
+    <div>
+        <ul><div class="navbar"></div>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="about.html">about</a></i1>
+            <li><a href="home.html">home</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <form id="contact-form">
+        <div class="contact form">
+            <div class="txtb">
+                <h2><strong>Contact Form</h2>
+                <div class="container">
+                    <form action="action_page.php">
+                  <div class="row">
+                      <div class="column">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      </div>
+                      <div class="column">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      </div>
+                      <div class="column">
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                      </div>
+                      <div class="column">
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      <div class="g-recaptcha" data-sitekey="6Ld-6dgUAAAAALqLe_uXPrseXybcWuWxP0yqW9BP"></div>
+      <br/>
+                  </div>
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+                  <div class="footer">
+              </div>
+            </div>
+        </form>
+</body>
+</html>
+
